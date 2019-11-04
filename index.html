@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice</title>
+    <style type="text/css">
+        small{
+            font-size: 9px;
+            line-height:14px;
+            display:block;
+        }
+        big{
+            font-size: 20px;
+            /*line-height:16px;*/
+            /*display:block;*/
+        }
+        .table-bordered{
+            /*border:1px solid #969696;*/
+        }
+
+        table tr td{
+            padding:3px 5px;
+        }
+        table.low-padding tr td{
+            padding:3px 0;
+        }
+        .mt-1{
+            margin-top:1em;
+        }
+        p{
+            margin:0;
+        }
+    </style>
+</head>
+
+<body>
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="max-width:1100px">
+    <tbody>
+    <tr>
+        <td align="center">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="low-padding">
+                <tbody>
+                <tr>
+                    <td width="59%" valign="bottom"><span class="logo">
+                           <img src="images/logo.png" style="width: 200px; height: auto" />
+                        </span></td>
+                    <td width="41%" valign="top">
+                        <p align="right" style="font-size: 20px;"><strong>Invoice</strong><br /></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Company Name   : <strong>ABC Company </strong><br/>
+                        Invoice Date            : <strong>2020-12-12</strong><br/>
+                        Invoice Period     : <strong>2020-01-01</strong> to <strong>2020-12-31</strong>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+            <table width="100%" border="1" cellspacing="0" cellpadding="0" class="bordered mt-1">
+                <tr style="border-bottom: 1px solid black">
+                    <td><strong>Description </strong></td>
+                    <td><strong>Quantity </strong></td>
+                    <td><strong>Unit Price </strong></td>
+                    <td align="right"><strong>Amount </strong></td>
+                </tr>
+                <tr>
+                    <td>Booking Transaction</td>
+                    <td>20</td>
+                    <td>20.36</td>
+
+                    <td align="right">407.20</td>
+                </tr>
+                <tr>
+                    <td>Discount (3.2 %)</td>
+                    <td></td>
+                    <td></td>
+                    <td align="right">13.03</td>
+                </tr>
+                <tr>
+                    <td>Sub Total</td>
+                    <td></td>
+                    <td></td>
+                    <td align="right">394.17</td>
+                </tr>
+                <tr>
+                    <td>Tax (2.00 %)</td>
+                    <td></td>
+                    <td></td>
+                    <td align="right">7.88</td>
+                </tr>
+                <tr>
+                    <td><strong>Total ($)</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td align="right"><strong>402.05</strong></td>
+                </tr>
+            </table>
+            <br>
+
+            <p>Transaction Details </p>
+            <table width="100%" border="1" cellspacing="0" cellpadding="0" class="bordered mt-1">
+                <tbody>
+                <tr>
+                    <td width=""><strong>ID</strong></td>
+                    <td width=""><strong>Transaction Type</strong></td>
+                    <td width=""><strong>Service Date</strong></td>
+                    <td width=""><strong>Deceased Name</strong></td>
+                </tr>
+
+                <tr class="item">
+                    <td>BK123456</td>
+                    <td>Transaction Type</td>
+                    <td>2020-12-15</td>
+                    <td>Ajith John</td>
+                </tr>
+
+                </tbody>
+            </table>
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="low-padding mt-1">
+                <tbody>
+                <tr>
+                    <td width="84%" valign="top">
+                        <small>
+                            This invoice from the our portal
+                            <br/>Thank you for the being with us
+                        </small>
+
+                    </td>
+                    <td width="16%" align="right" valign="top">
+                        <small>
+                            <strong>T</strong>   0719 86 56 85 <br/>
+                            <strong>E</strong>   info@gihandilanka.com <br/>
+                            <strong>W</strong>   www.gihandilanka.com
+                        </small>
+
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+
+
+</body>
+
+</html>
